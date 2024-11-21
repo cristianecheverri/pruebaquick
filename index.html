@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empocaldas</title>
+</head>
+<body>
+    <script> 
+        fetch('https://gx54pgu111.execute-api.us-east-2.amazonaws.com/prod/banners/', {
+          headers: {
+            'X-Api-Key': 'dm1OVROy4l3KJWLrtqelq1Cekh3KHkPJ2XUgfsGe'
+          }
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+        })
+        </script>
+      
+</body>
+</html>
